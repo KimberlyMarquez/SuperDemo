@@ -2,7 +2,7 @@ import express from 'express'
 
 import {
     createPost,
-    geatAllPosts
+    getAllPosts
 } from '../controllers/postControllers.js'
 
 const router = express.Router()
